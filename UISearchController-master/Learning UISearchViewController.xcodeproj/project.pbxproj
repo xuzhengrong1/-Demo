@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96503AAD1EE7F6F5009D88AB /* SearchEmployeeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96503AAC1EE7F6F5009D88AB /* SearchEmployeeCell.xib */; };
+		96503AAF1EE7F730009D88AB /* SearchEmployeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96503AAE1EE7F730009D88AB /* SearchEmployeeCell.swift */; };
+		96503AB11EE7F944009D88AB /* UITableView+RegisterNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96503AB01EE7F944009D88AB /* UITableView+RegisterNib.swift */; };
+		A86D0CCE1E420B4E005A9130 /* Worklog in Resources */ = {isa = PBXBuildFile; fileRef = A86D0CCD1E420B4E005A9130 /* Worklog */; };
+		A86D0CD01E424D17005A9130 /* TutorialSteps in Resources */ = {isa = PBXBuildFile; fileRef = A86D0CCF1E424D17005A9130 /* TutorialSteps */; };
+		A86D0CD21E424E1F005A9130 /* ViewController+SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86D0CD11E424E1F005A9130 /* ViewController+SearchController.swift */; };
+		A86D0CD41E424E6A005A9130 /* ViewController+someDataTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86D0CD31E424E6A005A9130 /* ViewController+someDataTV.swift */; };
+		A8F52B3B1E41FF7A00551EAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F52B3A1E41FF7A00551EAD /* AppDelegate.swift */; };
+		A8F52B3D1E41FF7A00551EAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F52B3C1E41FF7A00551EAD /* ViewController.swift */; };
+		A8F52B401E41FF7A00551EAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F52B3E1E41FF7A00551EAD /* Main.storyboard */; };
+		A8F52B421E41FF7A00551EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F52B411E41FF7A00551EAD /* Assets.xcassets */; };
+		A8F52B451E41FF7A00551EAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F52B431E41FF7A00551EAD /* LaunchScreen.storyboard */; };
+		A8F52B501E41FF7A00551EAD /* Learning_UISearchViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F52B4F1E41FF7A00551EAD /* Learning_UISearchViewControllerTests.swift */; };
+		A8F52B5B1E41FF7A00551EAD /* Learning_UISearchViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F52B5A1E41FF7A00551EAD /* Learning_UISearchViewControllerUITests.swift */; };
+		A8F52B6C1E4202F500551EAD /* EXCSomeDataManagerM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F52B6B1E4202F500551EAD /* EXCSomeDataManagerM.swift */; };
+		A8F52B6E1E42036F00551EAD /* EXCSomeDataM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F52B6D1E42036F00551EAD /* EXCSomeDataM.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8F52B4C1E41FF7A00551EAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8F52B2F1E41FF7A00551EAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8F52B361E41FF7A00551EAD;
+			remoteInfo = "Learning UISearchViewController";
+		};
+		A8F52B571E41FF7A00551EAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8F52B2F1E41FF7A00551EAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8F52B361E41FF7A00551EAD;
+			remoteInfo = "Learning UISearchViewController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96503AAC1EE7F6F5009D88AB /* SearchEmployeeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchEmployeeCell.xib; sourceTree = "<group>"; };
+		96503AAE1EE7F730009D88AB /* SearchEmployeeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchEmployeeCell.swift; sourceTree = "<group>"; };
+		96503AB01EE7F944009D88AB /* UITableView+RegisterNib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+RegisterNib.swift"; sourceTree = "<group>"; };
+		A86D0CCD1E420B4E005A9130 /* Worklog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Worklog; sourceTree = "<group>"; };
+		A86D0CCF1E424D17005A9130 /* TutorialSteps */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TutorialSteps; sourceTree = "<group>"; };
+		A86D0CD11E424E1F005A9130 /* ViewController+SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+SearchController.swift"; sourceTree = "<group>"; };
+		A86D0CD31E424E6A005A9130 /* ViewController+someDataTV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+someDataTV.swift"; sourceTree = "<group>"; };
+		A8F52B371E41FF7A00551EAD /* Learning UISearchViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning UISearchViewController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F52B3A1E41FF7A00551EAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8F52B3C1E41FF7A00551EAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8F52B3F1E41FF7A00551EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8F52B411E41FF7A00551EAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8F52B441E41FF7A00551EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8F52B461E41FF7A00551EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F52B4B1E41FF7A00551EAD /* Learning UISearchViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learning UISearchViewControllerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F52B4F1E41FF7A00551EAD /* Learning_UISearchViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_UISearchViewControllerTests.swift; sourceTree = "<group>"; };
+		A8F52B511E41FF7A00551EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F52B561E41FF7A00551EAD /* Learning UISearchViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learning UISearchViewControllerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F52B5A1E41FF7A00551EAD /* Learning_UISearchViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_UISearchViewControllerUITests.swift; sourceTree = "<group>"; };
+		A8F52B5C1E41FF7A00551EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F52B6B1E4202F500551EAD /* EXCSomeDataManagerM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EXCSomeDataManagerM.swift; sourceTree = "<group>"; };
+		A8F52B6D1E42036F00551EAD /* EXCSomeDataM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EXCSomeDataM.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8F52B341E41FF7A00551EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F52B481E41FF7A00551EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F52B531E41FF7A00551EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8F52B2E1E41FF7A00551EAD = {
+			isa = PBXGroup;
+			children = (
+				A86D0CCF1E424D17005A9130 /* TutorialSteps */,
+				A86D0CCD1E420B4E005A9130 /* Worklog */,
+				A8F52B391E41FF7A00551EAD /* Learning UISearchViewController */,
+				A8F52B4E1E41FF7A00551EAD /* Learning UISearchViewControllerTests */,
+				A8F52B591E41FF7A00551EAD /* Learning UISearchViewControllerUITests */,
+				A8F52B381E41FF7A00551EAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8F52B381E41FF7A00551EAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8F52B371E41FF7A00551EAD /* Learning UISearchViewController.app */,
+				A8F52B4B1E41FF7A00551EAD /* Learning UISearchViewControllerTests.xctest */,
+				A8F52B561E41FF7A00551EAD /* Learning UISearchViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8F52B391E41FF7A00551EAD /* Learning UISearchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A8F52B681E42005400551EAD /* App flow */,
+				A8F52B6A1E42007100551EAD /* 0. Tableview with data */,
+				A8F52B691E42005C00551EAD /* Supporting files */,
+			);
+			path = "Learning UISearchViewController";
+			sourceTree = "<group>";
+		};
+		A8F52B4E1E41FF7A00551EAD /* Learning UISearchViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8F52B4F1E41FF7A00551EAD /* Learning_UISearchViewControllerTests.swift */,
+				A8F52B511E41FF7A00551EAD /* Info.plist */,
+			);
+			path = "Learning UISearchViewControllerTests";
+			sourceTree = "<group>";
+		};
+		A8F52B591E41FF7A00551EAD /* Learning UISearchViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8F52B5A1E41FF7A00551EAD /* Learning_UISearchViewControllerUITests.swift */,
+				A8F52B5C1E41FF7A00551EAD /* Info.plist */,
+			);
+			path = "Learning UISearchViewControllerUITests";
+			sourceTree = "<group>";
+		};
+		A8F52B681E42005400551EAD /* App flow */ = {
+			isa = PBXGroup;
+			children = (
+				A8F52B3A1E41FF7A00551EAD /* AppDelegate.swift */,
+				A8F52B431E41FF7A00551EAD /* LaunchScreen.storyboard */,
+				A8F52B3E1E41FF7A00551EAD /* Main.storyboard */,
+			);
+			name = "App flow";
+			sourceTree = "<group>";
+		};
+		A8F52B691E42005C00551EAD /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				A8F52B461E41FF7A00551EAD /* Info.plist */,
+				A8F52B411E41FF7A00551EAD /* Assets.xcassets */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		A8F52B6A1E42007100551EAD /* 0. Tableview with data */ = {
+			isa = PBXGroup;
+			children = (
+				96503AB01EE7F944009D88AB /* UITableView+RegisterNib.swift */,
+				A8F52B3C1E41FF7A00551EAD /* ViewController.swift */,
+				A86D0CD11E424E1F005A9130 /* ViewController+SearchController.swift */,
+				A86D0CD31E424E6A005A9130 /* ViewController+someDataTV.swift */,
+				96503AAE1EE7F730009D88AB /* SearchEmployeeCell.swift */,
+				96503AAC1EE7F6F5009D88AB /* SearchEmployeeCell.xib */,
+				A8F52B6F1E42066700551EAD /* Some data for Mr.Tableview */,
+			);
+			name = "0. Tableview with data";
+			sourceTree = "<group>";
+		};
+		A8F52B6F1E42066700551EAD /* Some data for Mr.Tableview */ = {
+			isa = PBXGroup;
+			children = (
+				A8F52B6B1E4202F500551EAD /* EXCSomeDataManagerM.swift */,
+				A8F52B6D1E42036F00551EAD /* EXCSomeDataM.swift */,
+			);
+			name = "Some data for Mr.Tableview";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8F52B361E41FF7A00551EAD /* Learning UISearchViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F52B5F1E41FF7A00551EAD /* Build configuration list for PBXNativeTarget "Learning UISearchViewController" */;
+			buildPhases = (
+				A8F52B331E41FF7A00551EAD /* Sources */,
+				A8F52B341E41FF7A00551EAD /* Frameworks */,
+				A8F52B351E41FF7A00551EAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Learning UISearchViewController";
+			productName = "Learning UISearchViewController";
+			productReference = A8F52B371E41FF7A00551EAD /* Learning UISearchViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8F52B4A1E41FF7A00551EAD /* Learning UISearchViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F52B621E41FF7A00551EAD /* Build configuration list for PBXNativeTarget "Learning UISearchViewControllerTests" */;
+			buildPhases = (
+				A8F52B471E41FF7A00551EAD /* Sources */,
+				A8F52B481E41FF7A00551EAD /* Frameworks */,
+				A8F52B491E41FF7A00551EAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8F52B4D1E41FF7A00551EAD /* PBXTargetDependency */,
+			);
+			name = "Learning UISearchViewControllerTests";
+			productName = "Learning UISearchViewControllerTests";
+			productReference = A8F52B4B1E41FF7A00551EAD /* Learning UISearchViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8F52B551E41FF7A00551EAD /* Learning UISearchViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F52B651E41FF7A00551EAD /* Build configuration list for PBXNativeTarget "Learning UISearchViewControllerUITests" */;
+			buildPhases = (
+				A8F52B521E41FF7A00551EAD /* Sources */,
+				A8F52B531E41FF7A00551EAD /* Frameworks */,
+				A8F52B541E41FF7A00551EAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8F52B581E41FF7A00551EAD /* PBXTargetDependency */,
+			);
+			name = "Learning UISearchViewControllerUITests";
+			productName = "Learning UISearchViewControllerUITests";
+			productReference = A8F52B561E41FF7A00551EAD /* Learning UISearchViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8F52B2F1E41FF7A00551EAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mladen Bekavac";
+				TargetAttributes = {
+					A8F52B361E41FF7A00551EAD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					A8F52B4A1E41FF7A00551EAD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A8F52B361E41FF7A00551EAD;
+					};
+					A8F52B551E41FF7A00551EAD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A8F52B361E41FF7A00551EAD;
+					};
+				};
+			};
+			buildConfigurationList = A8F52B321E41FF7A00551EAD /* Build configuration list for PBXProject "Learning UISearchViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8F52B2E1E41FF7A00551EAD;
+			productRefGroup = A8F52B381E41FF7A00551EAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8F52B361E41FF7A00551EAD /* Learning UISearchViewController */,
+				A8F52B4A1E41FF7A00551EAD /* Learning UISearchViewControllerTests */,
+				A8F52B551E41FF7A00551EAD /* Learning UISearchViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8F52B351E41FF7A00551EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86D0CCE1E420B4E005A9130 /* Worklog in Resources */,
+				A8F52B451E41FF7A00551EAD /* LaunchScreen.storyboard in Resources */,
+				A86D0CD01E424D17005A9130 /* TutorialSteps in Resources */,
+				96503AAD1EE7F6F5009D88AB /* SearchEmployeeCell.xib in Resources */,
+				A8F52B421E41FF7A00551EAD /* Assets.xcassets in Resources */,
+				A8F52B401E41FF7A00551EAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F52B491E41FF7A00551EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F52B541E41FF7A00551EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8F52B331E41FF7A00551EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86D0CD21E424E1F005A9130 /* ViewController+SearchController.swift in Sources */,
+				96503AAF1EE7F730009D88AB /* SearchEmployeeCell.swift in Sources */,
+				96503AB11EE7F944009D88AB /* UITableView+RegisterNib.swift in Sources */,
+				A8F52B6E1E42036F00551EAD /* EXCSomeDataM.swift in Sources */,
+				A8F52B3D1E41FF7A00551EAD /* ViewController.swift in Sources */,
+				A8F52B6C1E4202F500551EAD /* EXCSomeDataManagerM.swift in Sources */,
+				A86D0CD41E424E6A005A9130 /* ViewController+someDataTV.swift in Sources */,
+				A8F52B3B1E41FF7A00551EAD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F52B471E41FF7A00551EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F52B501E41FF7A00551EAD /* Learning_UISearchViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F52B521E41FF7A00551EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F52B5B1E41FF7A00551EAD /* Learning_UISearchViewControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8F52B4D1E41FF7A00551EAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8F52B361E41FF7A00551EAD /* Learning UISearchViewController */;
+			targetProxy = A8F52B4C1E41FF7A00551EAD /* PBXContainerItemProxy */;
+		};
+		A8F52B581E41FF7A00551EAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8F52B361E41FF7A00551EAD /* Learning UISearchViewController */;
+			targetProxy = A8F52B571E41FF7A00551EAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8F52B3E1E41FF7A00551EAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8F52B3F1E41FF7A00551EAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8F52B431E41FF7A00551EAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8F52B441E41FF7A00551EAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8F52B5D1E41FF7A00551EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8F52B5E1E41FF7A00551EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8F52B601E41FF7A00551EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Learning UISearchViewController/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "excellence.Learning-UISearchViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A8F52B611E41FF7A00551EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Learning UISearchViewController/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "excellence.Learning-UISearchViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A8F52B631E41FF7A00551EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Learning UISearchViewControllerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "excellence.Learning-UISearchViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learning UISearchViewController.app/Learning UISearchViewController";
+			};
+			name = Debug;
+		};
+		A8F52B641E41FF7A00551EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Learning UISearchViewControllerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "excellence.Learning-UISearchViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learning UISearchViewController.app/Learning UISearchViewController";
+			};
+			name = Release;
+		};
+		A8F52B661E41FF7A00551EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Learning UISearchViewControllerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "excellence.Learning-UISearchViewControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Learning UISearchViewController";
+			};
+			name = Debug;
+		};
+		A8F52B671E41FF7A00551EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Learning UISearchViewControllerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "excellence.Learning-UISearchViewControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Learning UISearchViewController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8F52B321E41FF7A00551EAD /* Build configuration list for PBXProject "Learning UISearchViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F52B5D1E41FF7A00551EAD /* Debug */,
+				A8F52B5E1E41FF7A00551EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F52B5F1E41FF7A00551EAD /* Build configuration list for PBXNativeTarget "Learning UISearchViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F52B601E41FF7A00551EAD /* Debug */,
+				A8F52B611E41FF7A00551EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F52B621E41FF7A00551EAD /* Build configuration list for PBXNativeTarget "Learning UISearchViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F52B631E41FF7A00551EAD /* Debug */,
+				A8F52B641E41FF7A00551EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F52B651E41FF7A00551EAD /* Build configuration list for PBXNativeTarget "Learning UISearchViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F52B661E41FF7A00551EAD /* Debug */,
+				A8F52B671E41FF7A00551EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8F52B2F1E41FF7A00551EAD /* Project object */;
+}

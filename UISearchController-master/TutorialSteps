@@ -1,0 +1,9 @@
+#1 Create new project
+#2 Setup dummy data
+#3 initiate UISearchController programmatically //#3
+#4.0 make your Viewcontroller conforming to the UISearchResultsUpdating protocol    //#4.0
+#4.1 assign your ViewController as the delegate object for UISearchController       //#4.1
+#5.0 make your Viewcontroller conforming to the UISearchBarDelegate protocol        //#5.0
+#5.1 assign your ViewController as the delegate object for UISearchController's searchBar        //#5.1
+#6.0 make your Viewcontroller conforming to the UISearchControllerDelegate protocol    //#6.0
+#6.1 assign your ViewController as the delegate object for UISearchController overriding it's lifecycle methods'        //#6.1
